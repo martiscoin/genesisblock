@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>ouranos_computegenesisblock</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DBreeze" Version="1.118.2024.1016" />
+    <PackageReference Include="NStratis.HashLib" Version="1.0.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Marscore">
+      <HintPath>..\..\marscoin\Node\Marscore.Node\bin\Debug\net8.0\Marscore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
