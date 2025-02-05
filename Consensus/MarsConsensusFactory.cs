@@ -67,7 +67,7 @@ namespace Marscore.Networks.Marscoin.Consensus
                 var end = nonce + loopLength;
                 while (nonce < end)
                 {
-                    string pszTimestamp = "https://www.marscoin.network";
+                    string pszTimestamp = "The first decentralized mining pool blockchain";
                     Transaction txNew = CreateTransaction();
                     Debug.Assert(txNew.GetType() == typeof(MarsTransaction));
                     txNew.Version = 1;
