@@ -24,7 +24,7 @@ namespace computegenesisblock
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.GenesisTime = Utils.DateTimeToUnixTime(new DateTime(2025, 02, 07, 14, 00, 00, DateTimeKind.Utc));
+            this.GenesisTime = Utils.DateTimeToUnixTime(new DateTime(2025, 1, 11, 10, 05, 00, DateTimeKind.Utc));
             this.GenesisNonce = 20301515;
             this.GenesisBits = new Target(new uint256("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"));
             this.GenesisVersion = 1;
